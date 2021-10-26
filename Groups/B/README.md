@@ -1,18 +1,19 @@
-# B
+# Grupo B
+
+---
 
 ## Ejercicio 1
-Modificar el request del endpoint XXXX, la clave “date” para que permita valores ENTRE 1990-12-10 (Diciembre 12 de 1990) y 2020-12-10 (Diciembre 10 de 2020). Crear un caso de prueba exitoso para este endpoint.
+En el request del endpoint **/workshop**, modificar la clave *"date"* para que permita valores **ENTRE** 1990-12-10 (Diciembre 12 de 1990) y 2020-12-10 (Diciembre 10 de 2020). Crear un caso de prueba exitoso desde Postman para este endpoint.
 
 ---
 
 ## Ejercicio 2
-Crear un endpoint con la estructura propuesta y crear un caso de prueba exitoso desde Postman.
+Crear un endpoint con la estructura propuesta y crear un caso de prueba exitoso desde Postman para este endpoint.
 
 ### URL
-**/workshop/A/**
-
+*/workshop/B*
 ### Method
-**POST**
+*POST*
 
 ### Headers
 

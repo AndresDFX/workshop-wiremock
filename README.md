@@ -1,6 +1,6 @@
-# Workshop Wiremock
+# Workshop WireMock
 
-Este repositorio contiene las instrucciones necesarias para ejecutar un contenedor local con [Wiremock](http://wiremock.org/) y construir de manera practica mocks con diferentes validaciones.
+Este repositorio contiene las instrucciones necesarias para ejecutar un contenedor local DE [Wiremock](http://wiremock.org/) y construir de manera practica mocks con diferentes validaciones.
 
 ---
 ## Prerrequisitos
@@ -11,12 +11,12 @@ Este repositorio contiene las instrucciones necesarias para ejecutar un contened
 
 Descargar el repositorio con mediante la linea de comandos 
 ```bash
-git clone 
+git clone https://github.com/AndresDFX/workshop-wiremock.git
 ```
 
 Nos ubicamos en la carpeta del repositorio con el comando
 ```bash
-cd
+cd workshop-wiremock
 ```
 
 En la carpeta del proyecto, se encuentra el archivo [Dockerfile](./Dockerfile) necesario para construir la imagen de Docker.
@@ -47,7 +47,6 @@ Verificar ambos ejercicios en la carpeta [Groups](./Groups).
 
 
 ---
-
 ## Extras
 
 Para ejecutar un contenedor que se encuentra detenido
@@ -60,7 +59,7 @@ Para detener un contenedor que se encuentra iniciado
 docker stop name_container
 ```
 
-Para copiar archivos desde mi maquina local al contenedor (sin importar que este en ejecucion) 
+Para copiar archivos desde la maquina local al contenedor (sin importar que este en ejecucion) 
 ```bash
 docker cp text.txt name_container:/path/text.txt
 docker cp mappings.json wiremock:/home/wiremock/mappings/mappings.json
