@@ -1,7 +1,7 @@
-# A
+# Grupo A
 
 ## Ejercicio 1
-Modificar el request del endpoint que tiene la URL **/workshop**, la clave “date” para que permita valores SOLO posteriores al 1990-12-10 (Diciembre 12 de 1990). Crear un caso de prueba exitoso desde Postman para este endpoint.
+En el request del endpoint **/workshop**, modificar la clave *"date"* para que permita valores **SOLO** posteriores al 1990-12-10 (Diciembre 12 de 1990). Crear un caso de prueba exitoso desde Postman para este endpoint.
 
 ---
 
@@ -9,11 +9,9 @@ Modificar el request del endpoint que tiene la URL **/workshop**, la clave “da
 Crear un endpoint con la estructura propuesta y crear un caso de prueba exitoso desde Postman para este endpoint.
 
 ### URL
-**/workshop/A/**
-
+*/workshop/A/*
 ### Method
-**POST**
-
+*POST*
 ### Headers
 
 | Attribute     | Description       | Type               | Length  | Mandatory |

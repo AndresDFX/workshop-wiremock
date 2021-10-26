@@ -41,14 +41,14 @@ Si el comando anterior ejecuto correctamente podremos ingresar a la siguiente UR
 
 ## Ejercicios
 
-Se realizaran dos ejercicios, el primero modificar un endpoint existente y el segundo crear un endpoint desde cero. Ambos ejercicios se haran de acuerdo al **grupo** asignado.
+Se realizaran dos ejercicios, el primero modificar un endpoint existente y el segundo crear un endpoint desde cero. Ambos ejercicios se haran de acuerdo al **GRUPO** asignado.
 
 Verificar ambos ejercicios en la carpeta [Groups](./Groups).
 
 
 ---
 
-# Extras
+## Extras
 
 Para ejecutar un contenedor que se encuentra detenido
 ```bash
