@@ -1,0 +1,39 @@
+{
+    "mappings": [
+      {
+          "priority":1,
+          "request": {
+              "method": "POST",
+              "url": "/workshop",
+              "headers": {
+                  "Content-Type": {
+                      "equalTo": "application/json"
+                  }
+              },
+              "bodyPatterns" : [
+                    {"matchesJsonPath" : "$.valu"},
+                    {"matchesJsonPath" : "$.date"},
+                    {"matchesJsonPath" : "$[?(@.value == 'WorKshop')]"},
+                    {"matchesJsonPath" : "$.values.value1.code"},
+                    {"matchesJsonPath" : "$.values.value2.code"}
+              ]
+          },
+  
+          "response": {
+                "status": 200,
+                "headers": {
+                    "Content-Type": "application/json"
+                },
+                "bodyFileName": "../__files/responseExercise1.json"
+          }
+      }
+    ],
+
+    "_comment": "Do not DELETE configuration",
+    "importOptions": {
+        "duplicatePolicy": "OVERWRITE",
+        "deleteAllNotInImport": true
+      }
+
+    
+}
