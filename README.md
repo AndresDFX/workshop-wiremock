@@ -1,6 +1,6 @@
 # Workshop WireMock
 
-Este repositorio contiene las instrucciones necesarias para ejecutar un contenedor local DE [Wiremock](http://wiremock.org/) y construir de manera practica mocks con diferentes validaciones.
+Este repositorio contiene las instrucciones necesarias para ejecutar un contenedor local de [Wiremock](http://wiremock.org/) y construir de manera practica mocks con diferentes validaciones.
 
 ---
 ## Prerrequisitos

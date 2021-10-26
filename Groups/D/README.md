@@ -52,10 +52,6 @@ Crear un endpoint con la estructura propuesta y crear un caso de prueba exitoso 
 |-----------|----------------------------------|-------------------|
 | correct   | Correct example                  | String            |
 
-### Response 400
 
-| Attribute | Value                            | Type              |
-|-----------|----------------------------------|-------------------|
-| correct   | Not working validation           | String            |
 
 
